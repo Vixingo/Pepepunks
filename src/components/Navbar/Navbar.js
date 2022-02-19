@@ -48,65 +48,27 @@ function Navbar() {
                                 </li>
 
                                 <li className="nav-item">
-                                    <Button
-                                        sx={{
-                                            color: "#fff",
-                                            backgroundColor: "#4CA148",
-                                            fontFamily: "Rajdhani",
-                                            width: "133px",
-                                            height: "38px",
-                                            fontWeight: "700",
-                                            borderRadius: "8px",
-                                            ":hover": {
-                                                color: "#4CA148",
-                                                backgroundColor: "#fff",
-                                                boxShadow: " 0 0 10px #fff",
-                                            },
-                                        }}
-                                    >
-                                        CONNECT
-                                    </Button>
-                                    {/* <Stack sx={{ flexDirection: "row" }}>
-                                        <Link className="nav-link" to="#">
-                                            <IconButton
-                                                sx={{
-                                                    color: "#fff",
-                                                    borderRadius: "50%",
-                                                    transition: "0.2s",
-                                                    backgroundColor: "#FCC83A",
-                                                    paddingLeft: "6px",
-                                                    paddingRight: "12px",
-
-                                                    ":hover": {
-                                                        color: "#FCC83A",
-                                                        backgroundColor: "#fff",
-                                                        boxShadow:
-                                                            " 0 0 10px #fff",
-                                                    },
-                                                }}
-                                            >
-                                                <i class="fab fa-discord"></i>
-                                            </IconButton>
-                                        </Link>
-                                        <Link className="nav-link" to="#">
-                                            <IconButton
-                                                sx={{
-                                                    color: "#fff",
-                                                    borderRadius: "50%",
-                                                    transition: "0.2s",
-                                                    backgroundColor: "#FCC83A",
-                                                    ":hover": {
-                                                        color: "#FCC83A",
-                                                        backgroundColor: "#fff",
-                                                        boxShadow:
-                                                            " 0 0 10px #fff",
-                                                    },
-                                                }}
-                                            >
-                                                <i class="fab fa-twitter"></i>
-                                            </IconButton>
-                                        </Link>
-                                    </Stack> */}
+                                    <Link to="wallet">
+                                        {" "}
+                                        <Button
+                                            sx={{
+                                                color: "#fff",
+                                                backgroundColor: "#4CA148",
+                                                fontFamily: "Rajdhani",
+                                                width: "133px",
+                                                height: "38px",
+                                                fontWeight: "700",
+                                                borderRadius: "8px",
+                                                ":hover": {
+                                                    color: "#4CA148",
+                                                    backgroundColor: "#fff",
+                                                    boxShadow: " 0 0 10px #fff",
+                                                },
+                                            }}
+                                        >
+                                            CONNECT
+                                        </Button>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
