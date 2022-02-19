@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url(../public/img/mainbg.png);
+}
+.nav-item {
+    margin-left: 30px;
+}
+.nav-link {
+    color: #fff !important;
+    font-size: 16px;
+    transition: 0.2s ease-out;
+    font-weight: 600;
+}
+.navbar-brand {
+    width: 200px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-link:hover {
+    color: #fff !important;
+    text-shadow: 0 0 7px #4ca148, 0 0 10px #4ca148, 0 0 21px #4ca148,
+        0 0 42px #4ca148, 0 0 82px #4ca148, 0 0 92px #4ca148;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.fa-discord {
+    width: 24px;
+    height: 24px;
+    padding-right: 4px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media (max-width: 991px) {
+    .nav-item {
+        margin-left: 0px;
+    }
 }
